@@ -1,0 +1,433 @@
+{
+  "sourceLanguage" : "en",
+  "version" : "1.0",
+  "strings" : {
+    "adjust.brightness" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Brightness" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Яркость" } }
+      }
+    },
+    "adjust.contrast" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Contrast" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Контраст" } }
+      }
+    },
+    "adjust.reset" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reset" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Сбросить" } }
+      }
+    },
+    "adjust.saturation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Saturation" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Насыщенность" } }
+      }
+    },
+    "adjust.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Adjustments" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Коррекции" } }
+      }
+    },
+    "adjust.vignette" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Vignette" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Виньетка" } }
+      }
+    },
+    "adjust.warmth" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Warmth" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Теплота" } }
+      }
+    },
+    "common.back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Back" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Назад" } }
+      }
+    },
+    "common.ok" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "OK" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "ОК" } }
+      }
+    },
+    "editor.action.adjust" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Adjust" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Коррекция" } }
+      }
+    },
+    "editor.action.save" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Сохранить" } }
+      }
+    },
+    "editor.action.share" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Share" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Поделиться" } }
+      }
+    },
+    "editor.error.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Something went wrong" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Что-то пошло не так" } }
+      }
+    },
+    "editor.intensity" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Intensity" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Интенсивность" } }
+      }
+    },
+    "editor.phase.analyzing" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Analyzing image…" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Анализ снимка…" } }
+      }
+    },
+    "editor.phase.loading" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Preparing…" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Подготовка…" } }
+      }
+    },
+    "editor.phase.styling" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Applying style…" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Применяем стиль…" } }
+      }
+    },
+    "editor.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Editor" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Редактор" } }
+      }
+    },
+    "error.segmentation.empty" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No person detected in the photo." } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Человек на фото не обнаружен." } }
+      }
+    },
+    "feed.comments" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Comments" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Комментарии" } }
+      }
+    },
+    "feed.filter.following" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Following" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Подписки" } }
+      }
+    },
+    "feed.filter.fresh" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Fresh" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Свежее" } }
+      }
+    },
+    "feed.filter.trending" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Trending" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Популярное" } }
+      }
+    },
+    "feed.likes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Likes" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Лайки" } }
+      }
+    },
+    "feed.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Feed" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Лента" } }
+      }
+    },
+    "home.action.pickPhoto" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Pick a photo" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Выбрать фото" } }
+      }
+    },
+    "home.action.pickPhoto.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Opens the system photo picker." } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Открывает системный выбор фото." } }
+      }
+    },
+    "home.action.settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Настройки" } }
+      }
+    },
+    "home.gallery.item" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Photo from your library" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Фото из библиотеки" } }
+      }
+    },
+    "home.greeting" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Hello, artist" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Привет, художник" } }
+      }
+    },
+    "home.section.recent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Recent photos" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Недавние фото" } }
+      }
+    },
+    "home.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Turn portraits into art in seconds." } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Превращайте портреты в искусство за секунды." } }
+      }
+    },
+    "home.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Studio" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Студия" } }
+      }
+    },
+    "segment.background" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Background" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Фон" } }
+      }
+    },
+    "segment.global" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Both" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Всё" } }
+      }
+    },
+    "segment.portrait" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Portrait" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Портрет" } }
+      }
+    },
+    "settings.appearance" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Appearance" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Оформление" } }
+      }
+    },
+    "settings.appearance.dark" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Dark" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Тёмное" } }
+      }
+    },
+    "settings.appearance.light" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Light" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Светлое" } }
+      }
+    },
+    "settings.appearance.system" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "System" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Системное" } }
+      }
+    },
+    "settings.haptics" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Haptic feedback" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Тактильный отклик" } }
+      }
+    },
+    "settings.privacy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Privacy policy" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Политика конфиденциальности" } }
+      }
+    },
+    "settings.quality" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "High-quality rendering" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Высокое качество рендера" } }
+      }
+    },
+    "settings.save.original" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save original copy" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Сохранять оригинал" } }
+      }
+    },
+    "settings.section.about" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "About" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "О приложении" } }
+      }
+    },
+    "settings.section.display" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Display" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Экран" } }
+      }
+    },
+    "settings.section.editor" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Editor" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Редактор" } }
+      }
+    },
+    "settings.section.legal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Legal" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Правовая информация" } }
+      }
+    },
+    "settings.terms" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Terms of service" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Условия использования" } }
+      }
+    },
+    "settings.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Настройки" } }
+      }
+    },
+    "settings.version" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Version" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Версия" } }
+      }
+    },
+    "style.candy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Candy" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Конфетти" } }
+      }
+    },
+    "style.ink" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Ink" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Тушь" } }
+      }
+    },
+    "style.mosaic" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Mosaic" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Мозаика" } }
+      }
+    },
+    "style.noir" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Noir" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Нуар" } }
+      }
+    },
+    "style.none" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Original" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Оригинал" } }
+      }
+    },
+    "style.pop" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Pop" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Поп" } }
+      }
+    },
+    "style.vangogh" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Van Gogh" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Ван Гог" } }
+      }
+    },
+    "tab.feed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Feed" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Лента" } }
+      }
+    },
+    "tab.home" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Studio" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Студия" } }
+      }
+    },
+    "tab.settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Настройки" } }
+      }
+    }
+  }
+}
