@@ -81,10 +81,14 @@ AIPortraitEditor/
 
 ### Requirements
 
-* **Xcode 16** or later (uses file-system-synchronized groups & String
-  Catalog tooling)
+* **Xcode 15.2** or later (classic `PBXGroup` / explicit file references so the
+  project opens in 15.x; String Catalog is supported from Xcode 15 onward)
 * **iOS 17** deployment target
 * macOS host with Apple Silicon or Intel
+
+When you add new Swift files, add them to the **AIPortraitEditor** target in
+Xcode (or extend `project.pbxproj` by hand) — there is no file-system–synced
+group auto-including the whole folder.
 
 ### First open
 

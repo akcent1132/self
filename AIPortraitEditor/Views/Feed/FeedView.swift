@@ -34,7 +34,7 @@ struct FeedView: View {
         }
         .pickerStyle(.segmented)
         .padding(.horizontal, AppSpacing.md)
-        .onChange(of: viewModel.filter) {
+        .onChange(of: viewModel.filter) { _, _ in
             Task { await viewModel.refresh() }
         }
     }

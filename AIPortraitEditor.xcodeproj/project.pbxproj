@@ -3,22 +3,99 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AAAA0001000000000000C0DE /* AIPortraitEditor in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0002000000000000C0DE /* AIPortraitEditor */; };
+		F22222220000000000000001 /* AIPortraitEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000001 /* AIPortraitEditorApp.swift */; };
+		F22222220000000000000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000002 /* RootView.swift */; };
+		F22222220000000000000003 /* Container+Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000003 /* Container+Services.swift */; };
+		F22222220000000000000004 /* CIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000004 /* CIImage+Extensions.swift */; };
+		F22222220000000000000005 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000005 /* Color+Extensions.swift */; };
+		F22222220000000000000006 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000006 /* UIImage+Extensions.swift */; };
+		F22222220000000000000007 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000007 /* View+Extensions.swift */; };
+		F22222220000000000000008 /* EditorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000008 /* EditorState.swift */; };
+		F22222220000000000000009 /* FeedPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000009 /* FeedPost.swift */; };
+		F2222222000000000000000A /* GalleryAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000000A /* GalleryAsset.swift */; };
+		F2222222000000000000000B /* SegmentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000000B /* SegmentMode.swift */; };
+		F2222222000000000000000C /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000000C /* Style.swift */; };
+		F2222222000000000000000D /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000000D /* HapticsService.swift */; };
+		F2222222000000000000000E /* ImageExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000000E /* ImageExportService.swift */; };
+		F2222222000000000000000F /* ImageSegmentationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000000F /* ImageSegmentationService.swift */; };
+		F22222220000000000000010 /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000010 /* PhotoLibraryService.swift */; };
+		F22222220000000000000011 /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000011 /* StyleManager.swift */; };
+		F22222220000000000000012 /* StyleTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000012 /* StyleTransferService.swift */; };
+		F22222220000000000000013 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000013 /* AppColors.swift */; };
+		F22222220000000000000014 /* AppSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000014 /* AppSpacing.swift */; };
+		F22222220000000000000015 /* AppTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000015 /* AppTypography.swift */; };
+		F22222220000000000000016 /* EditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000016 /* EditorViewModel.swift */; };
+		F22222220000000000000017 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000017 /* FeedViewModel.swift */; };
+		F22222220000000000000018 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000018 /* HomeViewModel.swift */; };
+		F22222220000000000000019 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000019 /* SettingsViewModel.swift */; };
+		F2222222000000000000001A /* AsyncGalleryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000001A /* AsyncGalleryImage.swift */; };
+		F2222222000000000000001B /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000001B /* LoadingOverlay.swift */; };
+		F2222222000000000000001C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000001C /* LottieView.swift */; };
+		F2222222000000000000001D /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000001D /* PhotoPicker.swift */; };
+		F2222222000000000000001E /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000001E /* ShareSheet.swift */; };
+		F2222222000000000000001F /* AdjustmentsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1111111000000000000001F /* AdjustmentsSheet.swift */; };
+		F22222220000000000000020 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000020 /* EditorView.swift */; };
+		F22222220000000000000021 /* IntensitySliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000021 /* IntensitySliderView.swift */; };
+		F22222220000000000000022 /* SegmentToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000022 /* SegmentToggleView.swift */; };
+		F22222220000000000000023 /* StyleSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000023 /* StyleSelectorView.swift */; };
+		F22222220000000000000024 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000024 /* FeedView.swift */; };
+		F22222220000000000000025 /* GalleryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000025 /* GalleryGridView.swift */; };
+		F22222220000000000000026 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000026 /* HomeView.swift */; };
+		F22222220000000000000027 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000027 /* SettingsView.swift */; };
+		F22222220000000000000028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000028 /* Assets.xcassets */; };
+		F22222220000000000000029 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F11111110000000000000029 /* Localizable.xcstrings */; };
 		AAAA0003000000000000C0DE /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = AAAA0004000000000000C0DE /* Factory */; };
 		AAAA0005000000000000C0DE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AAAA0006000000000000C0DE /* Lottie */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AAAA0002000000000000C0DE /* AIPortraitEditor */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AIPortraitEditor;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		F11111110000000000000001 /* AIPortraitEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPortraitEditorApp.swift; sourceTree = "<group>"; };
+		F11111110000000000000002 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F11111110000000000000003 /* Container+Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container+Services.swift"; sourceTree = "<group>"; };
+		F11111110000000000000004 /* CIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+Extensions.swift"; sourceTree = "<group>"; };
+		F11111110000000000000005 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		F11111110000000000000006 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		F11111110000000000000007 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		F11111110000000000000008 /* EditorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorState.swift; sourceTree = "<group>"; };
+		F11111110000000000000009 /* FeedPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPost.swift; sourceTree = "<group>"; };
+		F1111111000000000000000A /* GalleryAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryAsset.swift; sourceTree = "<group>"; };
+		F1111111000000000000000B /* SegmentMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentMode.swift; sourceTree = "<group>"; };
+		F1111111000000000000000C /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		F1111111000000000000000D /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		F1111111000000000000000E /* ImageExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExportService.swift; sourceTree = "<group>"; };
+		F1111111000000000000000F /* ImageSegmentationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSegmentationService.swift; sourceTree = "<group>"; };
+		F11111110000000000000010 /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		F11111110000000000000011 /* StyleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleManager.swift; sourceTree = "<group>"; };
+		F11111110000000000000012 /* StyleTransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransferService.swift; sourceTree = "<group>"; };
+		F11111110000000000000013 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		F11111110000000000000014 /* AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSpacing.swift; sourceTree = "<group>"; };
+		F11111110000000000000015 /* AppTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypography.swift; sourceTree = "<group>"; };
+		F11111110000000000000016 /* EditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewModel.swift; sourceTree = "<group>"; };
+		F11111110000000000000017 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		F11111110000000000000018 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F11111110000000000000019 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		F1111111000000000000001A /* AsyncGalleryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncGalleryImage.swift; sourceTree = "<group>"; };
+		F1111111000000000000001B /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		F1111111000000000000001C /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		F1111111000000000000001D /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		F1111111000000000000001E /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		F1111111000000000000001F /* AdjustmentsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustmentsSheet.swift; sourceTree = "<group>"; };
+		F11111110000000000000020 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		F11111110000000000000021 /* IntensitySliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntensitySliderView.swift; sourceTree = "<group>"; };
+		F11111110000000000000022 /* SegmentToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentToggleView.swift; sourceTree = "<group>"; };
+		F11111110000000000000023 /* StyleSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSelectorView.swift; sourceTree = "<group>"; };
+		F11111110000000000000024 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		F11111110000000000000025 /* GalleryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryGridView.swift; sourceTree = "<group>"; };
+		F11111110000000000000026 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F11111110000000000000027 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F11111110000000000000028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F11111110000000000000029 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		AAAA000A000000000000C0DE /* AIPortraitEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIPortraitEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AAAA0007000000000000C0DE /* Frameworks */ = {
@@ -36,7 +113,7 @@
 		AAAA0008000000000000C0DE = {
 			isa = PBXGroup;
 			children = (
-				AAAA0002000000000000C0DE /* AIPortraitEditor */,
+				F33333330000000000000001 /* AIPortraitEditor */,
 				AAAA0009000000000000C0DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +124,166 @@
 				AAAA000A000000000000C0DE /* AIPortraitEditor.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F33333330000000000000001 /* AIPortraitEditor */ = {
+			isa = PBXGroup;
+			children = (
+				F33333330000000000000002 /* App */,
+				F33333330000000000000003 /* DI */,
+				F33333330000000000000004 /* Extensions */,
+				F33333330000000000000005 /* Models */,
+				F33333330000000000000006 /* Services */,
+				F33333330000000000000007 /* Theme */,
+				F33333330000000000000008 /* ViewModels */,
+				F33333330000000000000009 /* Views */,
+				F33333330000000000000015 /* Resources */,
+			);
+			path = AIPortraitEditor;
+			sourceTree = "<group>";
+		};
+		F33333330000000000000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F11111110000000000000001 /* AIPortraitEditorApp.swift */,
+				F11111110000000000000002 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F33333330000000000000003 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				F11111110000000000000003 /* Container+Services.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		F33333330000000000000004 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F11111110000000000000004 /* CIImage+Extensions.swift */,
+				F11111110000000000000005 /* Color+Extensions.swift */,
+				F11111110000000000000006 /* UIImage+Extensions.swift */,
+				F11111110000000000000007 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F33333330000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F11111110000000000000008 /* EditorState.swift */,
+				F11111110000000000000009 /* FeedPost.swift */,
+				F1111111000000000000000A /* GalleryAsset.swift */,
+				F1111111000000000000000B /* SegmentMode.swift */,
+				F1111111000000000000000C /* Style.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F33333330000000000000006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F1111111000000000000000D /* HapticsService.swift */,
+				F1111111000000000000000E /* ImageExportService.swift */,
+				F1111111000000000000000F /* ImageSegmentationService.swift */,
+				F11111110000000000000010 /* PhotoLibraryService.swift */,
+				F11111110000000000000011 /* StyleManager.swift */,
+				F11111110000000000000012 /* StyleTransferService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F33333330000000000000007 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				F11111110000000000000013 /* AppColors.swift */,
+				F11111110000000000000014 /* AppSpacing.swift */,
+				F11111110000000000000015 /* AppTypography.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		F33333330000000000000008 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F11111110000000000000016 /* EditorViewModel.swift */,
+				F11111110000000000000017 /* FeedViewModel.swift */,
+				F11111110000000000000018 /* HomeViewModel.swift */,
+				F11111110000000000000019 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F33333330000000000000009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3333333000000000000000A /* Common */,
+				F3333333000000000000000B /* Editor */,
+				F3333333000000000000000C /* Feed */,
+				F3333333000000000000000D /* Home */,
+				F3333333000000000000000E /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3333333000000000000000A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F1111111000000000000001A /* AsyncGalleryImage.swift */,
+				F1111111000000000000001B /* LoadingOverlay.swift */,
+				F1111111000000000000001C /* LottieView.swift */,
+				F1111111000000000000001D /* PhotoPicker.swift */,
+				F1111111000000000000001E /* ShareSheet.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F3333333000000000000000B /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				F1111111000000000000001F /* AdjustmentsSheet.swift */,
+				F11111110000000000000020 /* EditorView.swift */,
+				F11111110000000000000021 /* IntensitySliderView.swift */,
+				F11111110000000000000022 /* SegmentToggleView.swift */,
+				F11111110000000000000023 /* StyleSelectorView.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		F3333333000000000000000C /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				F11111110000000000000024 /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		F3333333000000000000000D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F11111110000000000000025 /* GalleryGridView.swift */,
+				F11111110000000000000026 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F3333333000000000000000E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F11111110000000000000027 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F33333330000000000000015 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F11111110000000000000028 /* Assets.xcassets */,
+				F11111110000000000000029 /* Localizable.xcstrings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -64,9 +301,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				AAAA0002000000000000C0DE /* AIPortraitEditor */,
-			);
 			name = AIPortraitEditor;
 			packageProductDependencies = (
 				AAAA0004000000000000C0DE /* Factory */,
@@ -83,15 +317,16 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					AAAA000B000000000000C0DE = {
-						CreatedOnToolsVersion = 16.0;
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
 			buildConfigurationList = AAAA0010000000000000C0DE /* Build configuration list for PBXProject "AIPortraitEditor" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -119,6 +354,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22222220000000000000028 /* Assets.xcassets in Resources */,
+				F22222220000000000000029 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +366,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAAA0001000000000000C0DE /* AIPortraitEditor in Sources */,
+				F22222220000000000000001 /* AIPortraitEditorApp.swift in Sources */,
+				F22222220000000000000002 /* RootView.swift in Sources */,
+				F22222220000000000000003 /* Container+Services.swift in Sources */,
+				F22222220000000000000004 /* CIImage+Extensions.swift in Sources */,
+				F22222220000000000000005 /* Color+Extensions.swift in Sources */,
+				F22222220000000000000006 /* UIImage+Extensions.swift in Sources */,
+				F22222220000000000000007 /* View+Extensions.swift in Sources */,
+				F22222220000000000000008 /* EditorState.swift in Sources */,
+				F22222220000000000000009 /* FeedPost.swift in Sources */,
+				F2222222000000000000000A /* GalleryAsset.swift in Sources */,
+				F2222222000000000000000B /* SegmentMode.swift in Sources */,
+				F2222222000000000000000C /* Style.swift in Sources */,
+				F2222222000000000000000D /* HapticsService.swift in Sources */,
+				F2222222000000000000000E /* ImageExportService.swift in Sources */,
+				F2222222000000000000000F /* ImageSegmentationService.swift in Sources */,
+				F22222220000000000000010 /* PhotoLibraryService.swift in Sources */,
+				F22222220000000000000011 /* StyleManager.swift in Sources */,
+				F22222220000000000000012 /* StyleTransferService.swift in Sources */,
+				F22222220000000000000013 /* AppColors.swift in Sources */,
+				F22222220000000000000014 /* AppSpacing.swift in Sources */,
+				F22222220000000000000015 /* AppTypography.swift in Sources */,
+				F22222220000000000000016 /* EditorViewModel.swift in Sources */,
+				F22222220000000000000017 /* FeedViewModel.swift in Sources */,
+				F22222220000000000000018 /* HomeViewModel.swift in Sources */,
+				F22222220000000000000019 /* SettingsViewModel.swift in Sources */,
+				F2222222000000000000001A /* AsyncGalleryImage.swift in Sources */,
+				F2222222000000000000001B /* LoadingOverlay.swift in Sources */,
+				F2222222000000000000001C /* LottieView.swift in Sources */,
+				F2222222000000000000001D /* PhotoPicker.swift in Sources */,
+				F2222222000000000000001E /* ShareSheet.swift in Sources */,
+				F2222222000000000000001F /* AdjustmentsSheet.swift in Sources */,
+				F22222220000000000000020 /* EditorView.swift in Sources */,
+				F22222220000000000000021 /* IntensitySliderView.swift in Sources */,
+				F22222220000000000000022 /* SegmentToggleView.swift in Sources */,
+				F22222220000000000000023 /* StyleSelectorView.swift in Sources */,
+				F22222220000000000000024 /* FeedView.swift in Sources */,
+				F22222220000000000000025 /* GalleryGridView.swift in Sources */,
+				F22222220000000000000026 /* HomeView.swift in Sources */,
+				F22222220000000000000027 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +415,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -203,7 +477,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
